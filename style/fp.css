@@ -1,0 +1,78 @@
+.flip{
+    position: relative;
+    height: 730px;
+}
+.flip .slide{
+    background-position: 50% 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.slide .container{
+    position: relative;
+    height: 730px;
+}
+
+.slide .desc{
+    position: absolute;
+    width: 290px;
+    padding: 80px 40px;
+    height: 160px;
+    top: 80px;
+    right: 15px;
+    background: #fff;
+    color: #666;
+    line-height: 20px;
+    box-shadow: 5px 8px 8px #ddd;
+    /*display: none;*/
+}
+.slide .desc .img{
+    margin-bottom: 25px;
+}
+.slide .desc{
+    vertical-align: top;
+}
+
+.flip .trigger{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    z-index: 10;
+}
+.flip .trigger span{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background: #ccc;
+    margin: 0 12px;
+    cursor: pointer;
+}
+.flip .trigger span s{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 12px;
+    top: 9px;
+    left: 9px;
+}
+
+.flip .trigger .active{
+    background: #0060ad;
+}
+
+/* 激活等特定样式下的控制 */
+.flip .slide-active{
+    z-index: 1;
+}
+.flip .slide-complete .desc{
+    display: block;
+}

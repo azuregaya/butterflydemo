@@ -1,0 +1,308 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 12px;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+body, button, input, select, textarea {font: 12px/1.5 tahoma,arial,"\5FAE\8F6F\96C5\9ED1";}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img{
+    vertical-align: top;
+}
+
+/* clearfix */
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* load images */
+.navbar .nav li,
+.navbar .nav .wx span.close,
+.site-menu-sub .sub span.arrow{
+    background:url(../images/wdg-header.png) no-repeat 9999px 9999px;
+}
+
+/* page layout */
+.container{
+    position:relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.navbar,
+.footer{
+    background: #0060ad;
+}
+
+.footer{
+    height: 70px;
+    line-height: 70px;
+    color: #b8c9e0;
+    text-align: center;
+}
+
+/* 吊顶 */
+.navbar{
+    height: 38px;
+    line-height: 38px;
+    z-index:100;
+}
+.navbar .nav{
+    position:relative;
+    float: right;
+}
+.navbar .nav li{
+    float: left;
+    color: #99bfde;
+    padding: 0 15px;
+}
+
+.navbar .nav li.icon{
+    padding-left:25px;
+}
+
+.navbar .nav li.nav-phone{
+    background-position:-180px 10px;
+}
+
+.navbar .nav li.email{
+    background-position:-180px -17px;
+}
+
+.navbar .nav li.weixin{
+    width:90px;
+    background-color:#1a70b6;
+    color:#fff;
+    cursor:pointer;
+    background-position:95px 15px;
+}
+
+.navbar .nav li.weixin:hover{
+    background-color:#20a3e3;
+}
+
+.navbar .nav .wx{
+    position:absolute;
+    top:38px;
+    right:0;
+    width:114px;
+    height:114px;
+    z-index:1000;
+    border-left:3px #20a3e3 solid;
+    border-right:3px #20a3e3 solid;
+    border-bottom:3px #20a3e3 solid;
+}
+
+.navbar .nav .wx span.close{
+    float:right;
+    width:23px;
+    height:23px;
+    background-position:0 -30px;
+    margin:0 -3px 0 0;
+    cursor:pointer;
+}
+
+/* 头部logo */
+.header{
+    z-index:99;
+}
+
+.site-logo{
+    float: left;
+    margin: 15px 0 15px 30px;
+}
+
+/* 头部菜单 */
+.site-menu{
+    float: right;
+    margin-right: 15px;
+}
+.site-menu li{
+    float: left;
+    margin-left: 30px;
+    position: relative;
+}
+.site-menu .item-trigger{
+    display: block;
+    color: #666;
+    font-size: 16px;
+    height: 90px;
+    line-height: 90px;
+    text-decoration: none;
+}
+
+/* 下拉菜单 */
+.site-menu-sub .sub{
+    position:absolute;
+    top:90px;
+    padding:30px 40px;
+    background-color:#fff;
+    border-top:5px #20a3e3 solid; 
+    z-index:1000;
+}
+
+.site-menu-sub .sub span.arrow{
+    position:absolute;
+    top:-19px;
+    width:30px;
+    height:14px;
+    background-position:0 -62px;
+}
+
+.site-menu-sub .sub-fa{
+    left:327px;
+}
+
+.site-menu-sub .sub-fa span.arrow{
+    left: 66px;
+}
+
+.site-menu-sub .sub-cp{
+    left:407px;
+}
+
+.site-menu-sub .sub-cp span.arrow{
+    left:62px;
+}
+
+.site-menu-sub .sub-fw{
+    right:177px;
+}
+
+.site-menu-sub .sub-fw span.arrow{
+    left:209px;
+}
+
+.site-menu-sub .sub-gy{
+    right:-16px;
+}
+
+.site-menu-sub .sub-gy span.arrow{
+    left: 46px;
+}
+
+.site-menu-sub .sub .column{
+    float:left;
+}
+
+.site-menu-sub .sub ul li{
+    height:36px;
+    line-height:36px;
+    font-size:14px;
+}
+
+.site-menu-sub .sub ul li a{
+    color:#333;
+    text-decoration: none;
+}
+
+.site-menu-sub .sub ul li a:hover{
+    color: #20a3e3;
+}
+
+.site-menu-sub .sub .column{
+    padding: 0 40px 0 0;
+    border-right: #e6e6e6 solid 1px;
+}
+
+.site-menu-sub .sub .column-1{
+    padding: 0;
+    border-right: none;
+}
+
+.site-menu-sub .sub .column-2{
+    padding:0 0 0 40px;
+}
+
+.site-menu-sub .sub .column-3{
+    padding:0 40px 0 40px;
+}
+
+.site-menu-sub .sub .column h3,.site-menu-sub .sub .column h3 a{
+    color:#145c9e;
+    font-size:16px;
+    text-decoration: none;
+}
+
+.site-menu-sub .sub .column ul.two li{
+    float:left;
+}
+
+.site-menu-sub .sub .column ul.two-1{
+    width: 132px;
+}
+
+.site-menu-sub .sub .column ul.two-1 li{
+    width: 66px;
+}
+
+.site-menu-sub .sub .column ul.two-2{
+    width: 224px;
+}
+
+.site-menu-sub .sub .column ul.two-2 li{
+    width: 112px;
+}
+
+
+
+/* 404 */
+.page404{
+    background: #ebf2f6;
+    padding: 80px 0;
+}
+
+.sdw{box-shadow:1px 1px 2px #969696;}
