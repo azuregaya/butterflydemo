@@ -1,0 +1,71 @@
+a{
+    color: #666;
+}
+
+.g-bd{
+    background: url(../images/bg.png);
+}
+
+.g-bd .inner{
+    width: 980px;
+    margin:0 auto;
+}
+
+.m-pagename{
+    height: 90px;
+    position:relative;
+}
+
+.m-pagename h2{
+    float: left;
+    line-height: 90px;
+    font-size: 30px;
+    color: #666;
+    text-indent: 20px;
+    font-weight: normal;
+}
+
+.m-pagename p{
+    float: right;
+    margin: 0 20px 0 0;
+    line-height: 90px;
+    color:#666;
+}
+
+.m-pagename p a{
+    color: #666;
+}
+
+/* 主体部分 */
+.m-main{
+    padding: 20px;
+    background-color: #fff;
+}
+
+.m-sidemenu{
+    float: left;
+    width: 220px;
+}
+
+.m-sidemenu .blue{
+    border-top: #11aaee solid 10px;
+}
+
+.m-sidemenu .grey{
+    border-top: #eee solid 10px;
+}
+
+.m-sidemenu ul li{
+    height: 33px;
+    line-height: 33px;
+}
+
+.m-sidemenu ul li a{
+    display: block;
+    font-size: 14px;
+}
+
+.m-mb{
+    float: right;
+    width: 700px;
+}

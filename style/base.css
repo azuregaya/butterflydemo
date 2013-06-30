@@ -46,6 +46,14 @@ del {
     text-decoration: line-through;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: #20a3e3;
+}
+
 /* tables still need 'cellspacing="0"' in the markup */
 table {
     border-collapse: collapse;
