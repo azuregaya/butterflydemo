@@ -1,0 +1,200 @@
+/* 分离首页 */
+.m-cats h2{
+    margin: 10px 0 0 0;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+.m-cats ul{
+    margin: 0 0 20px -4px;
+}
+
+.m-cats ul li{
+    position: relative;
+    float: left;
+    margin: 0 0 4px 4px;
+    width: 172px;
+    height: 130px;
+}
+
+.m-cats ul li a{
+    display: block;
+    height: 130px;
+    background: url(../images/category-1.png) 9999px 9999px no-repeat;
+}
+
+.m-cats ul li a:hover{
+    background: url(../images/category-2.png) 9999px 9999px no-repeat;
+}
+
+.m-cats ul li.rh a{
+    background-position: 0 0;
+}
+
+.m-cats ul li.dz a{
+    background-position: 0 -130px;
+}
+
+.m-cats ul li.yy a{
+    background-position: 0 -260px;
+}
+
+.m-cats ul li.sp a{
+    background-position: 0 -390px;
+}
+
+.m-cats ul li.jx a{
+    background-position: 0 -520px;
+}
+
+.m-cats ul li.sw a{
+    background-position: 0 -650px;
+}
+
+.m-cats ul li.cw a{
+    background-position: -172px 0;
+}
+
+.m-cats ul li.xt a{
+    background-position: -172px -130px;
+}
+
+.m-cats ul li.gy a{
+    background-position: -172px -260px;
+}
+
+.m-cats ul li.cp a{
+    background-position: -172px -390px;
+}
+
+.m-cats ul li.sc a{
+    background-position: -172px -520px;
+}
+
+.m-cats ul li.bi a{
+    background-position: -172px -650px;
+}
+
+.m-cats ul li a span{
+    position: absolute;
+    top: 93px;
+    left: 20px;
+    font-size: 18px;
+    color: #11aaee;
+}
+
+.m-cats ul li a:hover span{
+    color: #fff;
+}
+
+/* 分类下级页 */
+.m-catslogo{
+    position: relative;
+    height: 130px;
+    background-color: #11aaee;
+}
+
+.m-catslogo h4{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.m-catslogo .icon{
+    width:172px;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(../images/category-2.png) 0 0 no-repeat;
+}
+
+/* 产品总页面 */
+.m-prolist ul{
+    margin: 0 0 0 -4px;
+}
+
+.m-prolist ul li{
+    width: 172px;
+    float: left;
+    margin: 0 0 0 4px;
+}
+
+.m-prolist ul.grey li{
+    margin: 40px 0 0 4px;
+}
+
+.m-prolist ul.color .title{
+    height: 100px;
+    background: url(../images/wdg-product.png) -9999px -9999px no-repeat;
+}
+
+.m-prolist ul.color .title-eas{
+    background-position: 0 0;
+}
+
+.m-prolist ul.color .title-cloud{
+    background-position: 0 -100px;
+}
+
+.m-prolist ul.color .title-wise{
+    background-position: 0 -200px;
+}
+
+.m-prolist ul.color .title-kis{
+    background-position: 0 -300px;
+}
+
+.m-prolist ul.grey .title{
+    height: 50px;
+    background-color: #666;
+}
+.m-prolist ul.grey .title a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.m-prolist ul li .para{
+    position: relative;
+    padding: 25px 20px 0 20px;
+    background-color: #eee;
+}
+
+.m-prolist ul.color .para{
+    height: 215px;
+}
+
+.m-prolist ul.grey .para{
+    height: 95px;
+}
+
+.m-prolist ul li .para h3{
+    margin:0 0 10px 0;
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+}
+
+.m-prolist ul li .para p{
+    line-height: 18px;
+    color: #666;
+}
+
+.m-prolist ul.color .para a.btn{
+    display: block;
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: url(../images/wdg-product.png) 0 -400px no-repeat;
+}
