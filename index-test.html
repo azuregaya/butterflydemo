@@ -10,6 +10,7 @@
 <meta name="keywords" content="" />
 </head>
 <body>
+    <!--
     <div class="navbar">
         <div class="container">
             <ul class="nav">
@@ -127,11 +128,11 @@
             </div>
         </div>
     </div>
-
+    -->
     <style>
         .m-bgslider{position:absolute;top:128px;left:0;overflow:hidden;width:100%;}
         .m-bgslider .slider{height:100%;position:absolute;top: 0;left: 0;width: 100%;}
-        .m-bgslider .slider-1{background: url(pictures/slide_1.jpg) 50% 0 no-repeat;}
+        .m-bgslider .slider-1{background: url(http://img.bimg.126.net/photo/ECodsjo4VVNubk8gS8jQGw==/4566087072217127783.jpg) 50% 0 no-repeat;}
         .m-bgslider .slider-2{background: url(pictures/slide_2.jpg) 50% 0 no-repeat;}
     </style>
     
@@ -156,10 +157,16 @@
         $('#J_SHolder').height(wh-128);
     });
 
+    $('#J_S1').css('background-position',"79% 8%");
+
     $(document).mousemove(function(e){
+        var f1 = 0.1;
         Xpercent = (e.pageX - Xpoint)/ww;
         Ypercent = (e.pageY - Ypoint)/wh;
-        pos = (50 + Math.round(Xpercent*100)) + '%,' + Math.round(Ypercent*100) + '%';
+        XIncrement = Math.round(Xpercent*100)*f1;
+        YIncrement = Math.round(Ypercent*100)*f1;
+
+        pos = (50 + XIncrement) + '% ' + YIncrement + '%';
         //console.log(pos);
         $('#J_S1').css('background-position',pos);
     })
