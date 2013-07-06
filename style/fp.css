@@ -1,78 +1,35 @@
-.flip{
-    position: relative;
-    height: 730px;
-}
-.flip .slide{
-    background-position: 50% 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-}
-.slide .container{
-    position: relative;
-    height: 730px;
-}
+.m-bgslider{position:absolute;top:128px;left:0;overflow:hidden;width:100%;}
+.m-bgslider .sldier-wrap{height:100%;position:relative;z-index:1}
+.m-bgslider .slider,.m-bgslider .slider .bg{height:100%;position:absolute;top: 0;left: 0;width: 100%;}
+.m-bgslider .slider .bg{z-index:10;}
 
-.slide .desc{
-    position: absolute;
-    width: 290px;
-    padding: 80px 40px;
-    height: 160px;
-    top: 80px;
-    right: 15px;
-    background: #fff;
-    color: #666;
-    line-height: 20px;
-    box-shadow: 5px 8px 8px #ddd;
-    /*display: none;*/
-}
-.slide .desc .img{
-    margin-bottom: 25px;
-}
-.slide .desc{
-    vertical-align: top;
-}
+.m-bgslider .slider-1 .bg-1{background: url(../pictures/slide_1_f.png) 50% 0 no-repeat;}
+.m-bgslider .slider-1 .bg-2{background: url(../pictures/slide_1_b.jpg) 50% 5% no-repeat;}
+.m-bgslider .slider-2 .bg-1{background: url(../pictures/slide_2_f.png) 50% 0 no-repeat;}
+.m-bgslider .slider-2 .bg-2{background: url(../pictures/slide_2_b.jpg) 50% 0 no-repeat;}
+.m-bgslider .slider-3 .bg-1{background: url(../pictures/slide_3_f.png) 50% 0 no-repeat;}
+.m-bgslider .slider-3 .bg-2{background: url(../pictures/slide_3_b.jpg) 50% 0 no-repeat;}
+.m-bgslider .slider-4 .bg-1{background: url(../pictures/slide_4_f.png) 50% 0 no-repeat;}
+.m-bgslider .slider-4 .bg-2{background: url(../pictures/slide_4_b.jpg) 50% 0 no-repeat;}
 
-.flip .trigger{
-    position: absolute;
-    bottom: 50px;
-    left: 0;
-    width: 100%;
-    height: 30px;
-    text-align: center;
-    z-index: 10;
-}
-.flip .trigger span{
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    background: #ccc;
-    margin: 0 12px;
-    cursor: pointer;
-}
-.flip .trigger span s{
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    background: #fff;
-    border-radius: 12px;
-    top: 9px;
-    left: 9px;
-}
+.m-bgslider .control{position:absolute;top:86%;left:60%;z-index:10}
+.m-bgslider .control ol{margin:0 0 0 -4px;}
+.m-bgslider .control ol li{float:left;width:82px;height:20px;background-color:#ccc;margin:0 0 0 4px;cursor:pointer;text-indent:-9999px;}
+.m-bgslider .control ol li.j-crt{background-color:#51b1e7;}
 
-.flip .trigger .active{
-    background: #0060ad;
-}
+.m-infobxo{width:280px;height:330px;padding:50px;position:absolute;top:10%;left:60%;background-color:#fff;box-shadow:1px 1px 8px #aaa;z-index:99;}
+.m-infobxo h2,.m-infobxo a.btn{width:280px;background:url(../images/wdg-index.jpg) 9999px 9999px no-repeat;}
+.m-infobxo .slogan h2{height:90px;background-position:0 0;}
+.m-infobxo .product h2{height:40px;background-position:0 -100px ;}
+.m-infobxo .education h2{height:40px;background-position:0 -150px;}
+.m-infobxo .news h2{height:40px;background-position:0 -205px;}
+.m-infobxo p{margin:24px 0 0 0;font-size:14px;line-height: 24px;color:#666;}
+.m-infobxo a.btn{display:block;margin:20px 0 0 0;float:right;width:100px;height:45px;line-height:45px;background-position:0 -302px;color:#fff;text-align: center;}
+.m-infobxo h5{margin:24px 0 0 0;line-height:30px;color:#333;font-size:18px;font-weight:normal;}
+.m-infobxo ul{margin:20px 0 0 0;}
+.m-infobxo ul li{margin:0 0 20px 0;}
+.m-infobxo ul li a{font-size:14px;color:#11aaee;}
+.m-infobxo ul li a:hover{text-decoration:underline;}
+.m-infobxo ul li span{font-size:12px;color:#999;}
 
-/* 激活等特定样式下的控制 */
-.flip .slide-active{
-    z-index: 1;
-}
-.flip .slide-complete .desc{
-    display: block;
-}
+.footer{position:absolute;bottom:0;z-index:100;}
