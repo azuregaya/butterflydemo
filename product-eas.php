@@ -56,10 +56,8 @@
                         <div class="tabs clearfix">
                             <ul>
                                 <li class="j-tab crt" tab="t1">产品简介&定位</li>
-                                <li class="j-tab" tab="t2">产品特性</li>
+                                <li class="j-tab" tab="t2">产品架构</li>
                                 <li class="j-tab" tab="t3">领域应用</li>
-                                <li class="j-tab" tab="t4">客户案例</li>
-                                <li class="j-tab" tab="t5">产品架构</li>
                             </ul>
                         </div>
                         <div class="contents">
@@ -76,7 +74,11 @@
                                 </div>
                             </div>
                             <div id="t2" class="tab-item" style="display:none;">
-                                
+                                <div class="m-tabinner">
+                                    <div class="imgbox">
+                                        <img src="pictures/eas-jg.jpg">
+                                    </div>
+                                </div>
                             </div>
                             <div id="t3" class="tab-item" style="display:none;">
                                 <div class="m-tabinner">
@@ -99,12 +101,6 @@
                                     <h3>商业智能</h3>
                                     <p>为企业各级管理人员提供最优经营分析模型、决策分析路径、最细粒度的差异动因查询。</p>
                                 </div>
-                            </div>
-                            <div id="t4" class="tab-item" style="display:none;">
-                                <div class="m-tabinner"></div>
-                            </div>
-                            <div id="t5" class="tab-item" style="display:none;">
-                                <div class="m-tabinner"></div>
                             </div>
                         </div>
                     </div>

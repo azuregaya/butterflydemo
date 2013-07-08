@@ -22,7 +22,7 @@
                 <div class="m-infobxo">
                     <div class="slogan">
                         <h2></h2>
-                        <p>随时随地管账、管货、管生产，尽享行云流水畅快管理；心情，如蝶一般随之飞扬。</p>
+                        <p>蝶舞，是一种工作状态，信息化的服务让您的管理告别繁杂与低效，体验轻松与和谐，让企业管理层像美丽的蝴蝶一样翩然起舞，轻盈、自在、美好。</p>
                         <a class="btn" href="about-intro.php">了解蝶舞</a>
                     </div>
                 </div>
@@ -115,8 +115,8 @@
         XIncrement,
         YIncrement,
         pos,
-        f1 = 0.09,
-        f2 = -0.07;
+        f1 = 0.07,
+        f2 = -0.05;
 
     function setHeight(){
         ww = $(window).width();

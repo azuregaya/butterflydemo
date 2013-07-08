@@ -47,8 +47,8 @@
                         <div class="pic"><img src="pictures/jd-wise.jpg" /></div>
                         <div class="title">
                             <h2>金蝶K/3WISE</h2>
-                            <h4>面向中小型企业</h4>
-                            <p>融合先进管理模式与业务模型的中小企业ERP，快速配置、快速实施、快速应用、快速见效。</p>
+                            <h4>中国ERP软件中小企业市场占有率连续八年第一</h4>
+                            <p>融合先进管理模式与业务模型的中小企业ERP，具备全面应用、完整协同、敏捷制造、卓越模式四大显著领先优势的管理平台。</p>
                         </div>
                     </div>
 
@@ -56,10 +56,8 @@
                         <div class="tabs clearfix">
                             <ul>
                                 <li class="j-tab crt" tab="t1">产品简介&定位</li>
-                                <li class="j-tab" tab="t2">产品特性</li>
-                                <li class="j-tab" tab="t3">领域应用</li>
-                                <li class="j-tab" tab="t4">客户案例</li>
-                                <li class="j-tab" tab="t5">产品架构</li>
+                                <li class="j-tab" tab="t2">领域应用</li>
+                                <li class="j-tab" tab="t3">产品架构</li>
                             </ul>
                         </div>
                         <div class="contents">
@@ -152,14 +150,6 @@
                                 </div>
                             </div>
                             <div id="t3" class="tab-item" style="display:none;">
-                                <div class="m-tabinner">
-                                    
-                                </div>
-                            </div>
-                            <div id="t4" class="tab-item" style="display:none;">
-                                <div class="m-tabinner"></div>
-                            </div>
-                            <div id="t5" class="tab-item" style="display:none;">
                                 <div class="m-tabinner">
                                     <div class="imgbox">
                                         <img src="pictures/wise-jg.jpg">

@@ -110,7 +110,11 @@
     position: absolute;
     top: 0;
     right: 0;
-    background: url(../images/category-2.png) 0 0 no-repeat;
+    background: url(../images/category-2.png) 9999px 9999px no-repeat;
+}
+
+.m-catslogo .icon-rh{
+    background-position:0 0;
 }
 
 /* 产品总页面 */

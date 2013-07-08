@@ -46,9 +46,9 @@
                     <div class="m-prointro clearfix">
                         <div class="pic"><img src="pictures/jd-cloud.jpg" /></div>
                         <div class="title">
-                            <h2>金蝶Cloud</h2>
-                            <h4>面向大中型企业</h4>
-                            <p>适用于单体及多组织、多工厂、多地点的制造型企业。全面支持法人企业跨国家、跨地域、跨语系的多工厂及多组织间的业务协同。</p>
+                            <h2>金蝶K3/Cloud</h2>
+                            <h4>第一款基于云平台的社交化ERP</h4>
+                            <p>金蝶K/3 Cloud是基于WEB2.0与云技术的一个开放式、社会化的新时代企业管理服务平台。整个产品采用SOA架构，完全基于BOS平台组建而成，业务架构上贯穿流程驱动与角色驱动思想，结合中国管理模式与中国管理实践积累，精细化支持企业财务管理、供应链管理、生产管理、人力资源管理、供应链协同管理等核心应用。</p>
                         </div>
                     </div>
 
@@ -58,8 +58,7 @@
                                 <li class="j-tab crt" tab="t1">产品简介&定位</li>
                                 <li class="j-tab" tab="t2">产品特性</li>
                                 <li class="j-tab" tab="t3">领域应用</li>
-                                <li class="j-tab" tab="t4">客户案例</li>
-                                <li class="j-tab" tab="t5">产品架构</li>
+                                <li class="j-tab" tab="t4">产品架构</li>
                             </ul>
                         </div>
                         <div class="contents">
@@ -112,10 +111,17 @@
                                 </div>
                             </div>
                             <div id="t4" class="tab-item" style="display:none;">
-                                <div class="m-tabinner"></div>
-                            </div>
-                            <div id="t5" class="tab-item" style="display:none;">
-                                <div class="m-tabinner"></div>
+                                <div class="m-tabinner">
+                                    <div class="imgbox">
+                                        <img src="pictures/cloud-jg1.jpg">
+                                    </div>
+                                    <div class="imgbox">
+                                        <img src="pictures/cloud-jg2.jpg">
+                                    </div>
+                                    <div class="imgbox">
+                                        <img src="pictures/cloud-jg3.jpg">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
