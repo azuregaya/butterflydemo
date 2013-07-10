@@ -117,6 +117,50 @@
     background-position:0 0;
 }
 
+.m-catslogo .icon-dz{
+    background-position:0 -130px;
+}
+
+.m-catslogo .icon-yy{
+    background-position:0 -260px;
+}
+
+.m-catslogo .icon-sp{
+    background-position:0 -390px;
+}
+
+.m-catslogo .icon-jx{
+    background-position:0 -520px;
+}
+
+.m-catslogo .icon-ls{
+    background-position:0 -650px;
+}
+
+.m-catslogo .icon-cw{
+    background-position:-172px 0;
+}
+
+.m-catslogo .icon-xt{
+    background-position:-172px -130px;
+}
+
+.m-catslogo .icon-gy{
+    background-position:-172px -260px;
+}
+
+.m-catslogo .icon-sm{
+    background-position:-172px -390px;
+}
+
+.m-catslogo .icon-sc{
+    background-position:-172px -520px;
+}
+
+.m-catslogo .icon-bi{
+    background-position:-172px -650px;
+}
+
 /* 产品总页面 */
 .m-prolist ul{
     margin: 0 0 0 -4px;

@@ -49,31 +49,31 @@
                                 <div class="para">
                                     <h3>面向大型企业</h3>
                                     <p>适用于资本管控型、战略管控型及运营管控型的集团企业。</p>
-                                    <a class="btn" href="#"></a>
+                                    <a class="btn" href="product-eas.php"></a>
                                 </div>
                             </li>
                             <li>
                                 <div class="title title-cloud"></div>
                                 <div class="para">
-                                    <h3>面向大型企业</h3>
-                                    <p>适用于资本管控型、战略管控型及运营管控型的集团企业。</p>
-                                    <a class="btn" href="#"></a>
+                                    <h3>面向大中型企业</h3>
+                                    <p>适用于单体及多组织、多工厂、多地点的制造型企业。全面支持法人企业跨国家、跨地域、跨语系的多工厂及多组织间的业务协同。</p>
+                                    <a class="btn" href="product-cloud.php"></a>
                                 </div>
                             </li>
                             <li>
                                 <div class="title title-wise"></div>
                                 <div class="para">
-                                    <h3>面向大型企业</h3>
-                                    <p>适用于资本管控型、战略管控型及运营管控型的集团企业。</p>
-                                    <a class="btn" href="#"></a>
+                                    <h3>面向中小型企业</h3>
+                                    <p>融合先进管理模式与业务模型的中小企业ERP，快速配置、快速实施、快速应用、快速见效。</p>
+                                    <a class="btn" href="product-wise.php"></a>
                                 </div>
                             </li>
                             <li>
                                 <div class="title title-kis"></div>
                                 <div class="para">
-                                    <h3>面向大型企业</h3>
-                                    <p>适用于资本管控型、战略管控型及运营管控型的集团企业。</p>
-                                    <a class="btn" href="#"></a>
+                                    <h3>面向小微型企业</h3>
+                                    <p>全面覆盖小型企业管理的五大关键环节：老板查询、财务管理、采购管理、销售管理、仓存管理。</p>
+                                    <a class="btn" href="product-kis.php"></a>
                                 </div>
                             </li>
                         </ul>

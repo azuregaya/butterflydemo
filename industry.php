@@ -46,12 +46,12 @@
                         <h2>按行业分类</h2>
                         <div>
                             <ul class="clearfix">
-                                <li class="rh"><a href="#"><span>日化</span></a></li>
-                                <li class="dz"><a href="#"><span>电子</span></a></li>
-                                <li class="yy"><a href="#"><span>医药</span></a></li>
-                                <li class="sp"><a href="#"><span>食品</span></a></li>
-                                <li class="jx"><a href="#"><span>机械</span></a></li>
-                                <li class="sw"><a href="#"><span>电子商务</span></a></li>
+                                <li class="rh"><a href="category-rh.php"><span>日化</span></a></li>
+                                <li class="dz"><a href="category-dz.php"><span>电子</span></a></li>
+                                <li class="yy"><a href="category-yy.php"><span>医药</span></a></li>
+                                <li class="sp"><a href="category-sp.php"><span>食品</span></a></li>
+                                <li class="jx"><a href="category-jx.php"><span>机械</span></a></li>
+                                <li class="sw"><a href="category-ls.php"><span>零售</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -60,12 +60,12 @@
                         <h2>按管理领域</h2>
                         <div>
                             <ul class="clearfix">
-                                <li class="cw"><a href="#"><span>财务管理</span></a></li>
-                                <li class="xt"><a href="#"><span>协同管理</span></a></li>
-                                <li class="gy"><a href="#"><span>供应链管理</span></a></li>
-                                <li class="cp"><a href="#"><span>产品生命周期管理</span></a></li>
-                                <li class="sc"><a href="#"><span>生产制造</span></a></li>
-                                <li class="bi"><a href="#"><span>商业分析(BI)</span></a></li>
+                                <li class="cw"><a href="category-cw.php"><span>财务管理</span></a></li>
+                                <li class="xt"><a href="category-xt.php"><span>协同管理</span></a></li>
+                                <li class="gy"><a href="category-gy.php"><span>供应链管理</span></a></li>
+                                <li class="cp"><a href="category-sm.php"><span>产品生命周期管理</span></a></li>
+                                <li class="sc"><a href="category-sc.php"><span>生产制造</span></a></li>
+                                <li class="bi"><a href="category-bi.php"><span>商业分析(BI)</span></a></li>
                             </ul>
                         </div>
                     </div>
