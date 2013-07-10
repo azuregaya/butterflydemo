@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="style/base.css" />
 <link rel="stylesheet" href="style/sp.css" />
 <link rel="stylesheet" href="style/ip.css" />
+<link rel="icon" href="images/fav.ico" type="image/x-icon" />
 <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
 <meta name="description" content="" />
 <meta name="keywords" content="" />

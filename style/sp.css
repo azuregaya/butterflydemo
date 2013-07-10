@@ -363,4 +363,8 @@ a{
     text-indent: 0;
 }
 
+.m-fangfa tr.grey{background-color:#f4f4f4;}
+.m-fangfa td{border:#ccc solid 1px;text-align:center;padding:3px 8px;vertical-align: middle;font-size:14px;color:#333;}
+.m-fangfa td.al{text-align:left;}
+
 

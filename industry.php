@@ -52,6 +52,8 @@
                                 <li class="sp"><a href="category-sp.php"><span>食品</span></a></li>
                                 <li class="jx"><a href="category-jx.php"><span>机械</span></a></li>
                                 <li class="sw"><a href="category-ls.php"><span>零售</span></a></li>
+                                <li class="fz"><a href="category-fz.php"><span>服装</span></a></li>
+                                <li class="qp"><a href="category-qp.php"><span>汽配</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -66,6 +68,8 @@
                                 <li class="cp"><a href="category-sm.php"><span>产品生命周期管理</span></a></li>
                                 <li class="sc"><a href="category-sc.php"><span>生产制造</span></a></li>
                                 <li class="bi"><a href="category-bi.php"><span>商业分析(BI)</span></a></li>
+                                <li class="hr"><a href="category-hr.php"><span>人力资源管理</span></a></li>
+                                <li class="yd"><a href="#"><span>金蝶移动应用</span></a></li>
                             </ul>
                         </div>
                     </div>

@@ -100,7 +100,6 @@ img{
     height: 50px;
     margin: 20px auto 0 auto;
     line-height: 50px;
-    text-align: center;
 }
 
 .footer .bg{
@@ -112,10 +111,74 @@ img{
     background-color: #fff;
     opacity:0.6;
     filter:alpha(opacity=60);
+    z-index:0;
 }
 
-.footer .inner .p{
+.footer .inner {
+    position: relative;
+    z-index: 10;
+}
+
+.footer .inner p{
+    margin: 0 0 0 20px;
     color:#666;
+    float: left;
+}
+
+.m-sns{
+    float: right;
+}
+
+.m-sns li{
+    float:left;
+}
+
+.m-sns li.icon a{
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    margin: 10px;
+    background:url(../images/wdg-header.png) no-repeat 9999px 9999px;
+}
+
+.m-sns li.icon-xl a{
+    background-position: 0 -150px;
+}
+
+.m-sns li.icon-tx a{
+    background-position: 0 -182px;
+}
+
+.m-sns li.icon-wx a{
+    background-position: 0 -214px;
+}
+
+.m-sns li.icon-yzj a{
+    width: 80px;
+    background-position: 0 -247px;
+}
+
+
+.footer .wx{
+    position:absolute;
+    top:-211px;
+    right:0;
+    width:200px;
+    height:200px;
+    z-index:1000;
+    border: #7fb918 5px solid;
+}
+
+.footer .wx span.close{
+    background:url(../images/wdg-header.png) no-repeat 9999px 9999px;
+    position: absolute;
+    right:-40px;
+    top: -5px;
+    width:40px;
+    height:40px;
+    background-position:0 0;
+    cursor:pointer;
 }
 
 /* 吊顶 */
@@ -146,38 +209,7 @@ img{
     background-position:-180px -17px;
 }
 
-.navbar .nav li.weixin{
-    width:90px;
-    background-color:#3ba5e0;
-    color:#fff;
-    cursor:pointer;
-    background-position:95px 15px;
-}
 
-.navbar .nav li.weixin:hover{
-    background-color:#20a3e3;
-}
-
-.navbar .nav .wx{
-    position:absolute;
-    top:38px;
-    right:0;
-    width:114px;
-    height:114px;
-    z-index:1000;
-    border-left:3px #20a3e3 solid;
-    border-right:3px #20a3e3 solid;
-    border-bottom:3px #20a3e3 solid;
-}
-
-.navbar .nav .wx span.close{
-    float:right;
-    width:23px;
-    height:23px;
-    background-position:0 -30px;
-    margin:0 -3px 0 0;
-    cursor:pointer;
-}
 
 /* 头部logo */
 .header{
@@ -247,7 +279,7 @@ img{
 }
 
 .site-menu-sub .sub-fw span.arrow{
-    left:209px;
+    left:55px;
 }
 
 .site-menu-sub .sub-gy{
@@ -299,6 +331,7 @@ img{
     color:#145c9e;
     font-size:16px;
     text-decoration: none;
+    cursor:default;
 }
 
 .site-menu-sub .sub .column ul.two li{

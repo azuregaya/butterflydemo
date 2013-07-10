@@ -52,6 +52,14 @@
     background-position: 0 -650px;
 }
 
+.m-cats ul li.fz a{
+    background-position: 0 -780px;
+}
+
+.m-cats ul li.qp a{
+    background-position: 0 -910px;
+}
+
 .m-cats ul li.cw a{
     background-position: -172px 0;
 }
@@ -74,6 +82,14 @@
 
 .m-cats ul li.bi a{
     background-position: -172px -650px;
+}
+
+.m-cats ul li.hr a{
+    background-position: -172px -780px;
+}
+
+.m-cats ul li.yd a{
+    background-position: -172px -910px;
 }
 
 .m-cats ul li a span{
@@ -137,6 +153,14 @@
     background-position:0 -650px;
 }
 
+.m-catslogo .icon-fz{
+    background-position:0 -780px;
+}
+
+.m-catslogo .icon-qp{
+    background-position:0 -910px;
+}
+
 .m-catslogo .icon-cw{
     background-position:-172px 0;
 }
@@ -159,6 +183,10 @@
 
 .m-catslogo .icon-bi{
     background-position:-172px -650px;
+}
+
+.m-catslogo .icon-hr{
+    background-position:-172px -780px;
 }
 
 /* 产品总页面 */
